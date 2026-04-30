@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grundejerforeningen Mølleskoven</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="nav-wrapper" id="navbar">
+    <nav class="nav-inner">
+      <a href="#top" class="nav-logo">
+        <span class="nav-logo-icon">&#9698;</span>
+        <div>
+          <span class="nav-logo-title">Mølleskoven</span>
+          <span class="nav-logo-sub">Grundejerforening</span>
+        </div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#om">Om foreningen</a></li>
+        <li><a href="#nyheder">Nyheder</a></li>
+        <li><a href="#bestyrelsen">Bestyrelsen</a></li>
+        <li><a href="#dokumenter">Dokumenter</a></li>
+        <li><a href="#kontakt" class="nav-cta">Kontakt</a></li>
+      </ul>
+      <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-eyebrow">Velkommen til</span>
+      <h1 class="hero-title">Grundejerforeningen<br><em>Mølleskoven</em></h1>
+      <p class="hero-subtitle">Et trygt og velfungerende lokalsamfund — for alle beboere</p>
+      <div class="hero-actions">
+        <a href="#nyheder" class="btn btn-primary">Se nyheder</a>
+        <a href="#kontakt" class="btn btn-ghost">Kontakt os</a>
+      </div>
+    </div>
+    <a href="#om" class="hero-scroll" aria-label="Scroll ned">
+      <svg viewBox="0 0 24 24" width="24" height="24"><path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </section>
+
+  <!-- OM FORENINGEN -->
+  <section class="section" id="om">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Om os</span>
+        <h2 class="section-title">En forening for alle grundejere</h2>
+        <p class="section-desc">Grundejerforeningen Mølleskoven varetager fællesskabets interesser og sikrer et godt naboskab for alle beboere i området.</p>
+      </div>
+      <div class="cards-grid thirds">
+        <div class="card card-icon">
+          <div class="card-icon-wrap green">
+            <svg viewBox="0 0 24 24" width="28" height="28"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" stroke="currentColor" stroke-width="2" fill="none"/><polyline points="9 22 9 12 15 12 15 22" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+          </div>
+          <h3>Fællesarealer</h3>
+          <p>Vi vedligeholder og udvikler foreningens fælles grønne arealer, stier og faciliteter til glæde for alle beboere.</p>
+        </div>
+        <div class="card card-icon">
+          <div class="card-icon-wrap blue">
+            <svg viewBox="0 0 24 24" width="28" height="28"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" stroke="currentColor" stroke-width="2" fill="none"/><circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="2" fill="none"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+          </div>
+          <h3>Fællesskab</h3>
+          <p>Vi arrangerer sociale arrangementer og arbejdsdage, der styrker sammenholdet og naboskabet i Mølleskoven.</p>
+        </div>
+        <div class="card card-icon">
+          <div class="card-icon-wrap amber">
+            <svg viewBox="0 0 24 24" width="28" height="28"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" stroke="currentColor" stroke-width="2" fill="none"/><polyline points="14 2 14 8 20 8" stroke="currentColor" stroke-width="2" fill="none"/><line x1="16" y1="13" x2="8" y2="13" stroke="currentColor" stroke-width="2"/><line x1="16" y1="17" x2="8" y2="17" stroke="currentColor" stroke-width="2"/><polyline points="10 9 9 9 8 9" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3>Administration</h3>
+          <p>Bestyrelsen håndterer foreningens økonomi, vedtægter og kommunikation med kommunen på vegne af alle medlemmer.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NYHEDER -->
+  <section class="section section-alt" id="nyheder">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Seneste nyt</span>
+        <h2 class="section-title">Nyheder &amp; opslag</h2>
+        <p class="section-desc">Hold dig opdateret med det seneste fra foreningen.</p>
+      </div>
+      <div class="news-grid">
+        <article class="news-card news-card-featured">
+          <div class="news-tag">Generalforsamling</div>
+          <time class="news-date">28. april 2026</time>
+          <h3 class="news-title">Ordinær generalforsamling 2026</h3>
+          <p class="news-excerpt">Hermed indkaldes alle medlemmer af Grundejerforeningen Mølleskoven til ordinær generalforsamling. Mødet afholdes torsdag den 21. maj 2026 kl. 19:00 i fælleslokalets mødesal.</p>
+          <a href="#" class="news-link">Læs mere <svg viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </article>
+        <article class="news-card">
+          <div class="news-tag tag-green">Arbejdsdag</div>
+          <time class="news-date">15. april 2026</time>
+          <h3 class="news-title">Fælles arbejdsdag — tak for opbakningen!</h3>
+          <p class="news-excerpt">En stor tak til de mange fremmødte til årets første arbejdsdag. Hegn er repareret og fællesarealer er klippet.</p>
+          <a href="#" class="news-link">Læs mere <svg viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </article>
+        <article class="news-card">
+          <div class="news-tag tag-blue">Info</div>
+          <time class="news-date">2. marts 2026</time>
+          <h3 class="news-title">Nye regler for affaldshåndtering</h3>
+          <p class="news-excerpt">Kommunen har indført nye sorteringsregler fra 1. april. Læs her hvad det betyder for dig som beboer i Mølleskoven.</p>
+          <a href="#" class="news-link">Læs mere <svg viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </article>
+        <article class="news-card">
+          <div class="news-tag tag-amber">Vedligehold</div>
+          <time class="news-date">18. februar 2026</time>
+          <h3 class="news-title">Asfalteret sti ved indkørslen renoveret</h3>
+          <p class="news-excerpt">Den beskadigede sti ved foreningens sydlige indkørsel er nu renoveret og fremstår som ny. Arbejdet blev afsluttet til tiden og inden for budget.</p>
+          <a href="#" class="news-link">Læs mere <svg viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- BESTYRELSEN -->
+  <section class="section" id="bestyrelsen">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Bestyrelsen</span>
+        <h2 class="section-title">Mød din bestyrelse</h2>
+        <p class="section-desc">Bestyrelsen er valgt af og for medlemmerne og arbejder frivilligt for foreningens bedste.</p>
+      </div>
+      <div class="cards-grid board-grid">
+        <div class="board-card board-card-primary">
+          <div class="board-avatar">FM</div>
+          <h3 class="board-name">Lasse Rylander</h3>
+          <span class="board-role">Formand</span>
+          <a href="mailto:formand@molleskoven.dk" class="board-email">formand@molleskoven.dk</a>
+        </div>
+        <div class="board-card">
+          <div class="board-avatar small">NK</div>
+          <h3 class="board-name">Fornavn Efternavn</h3>
+          <span class="board-role">Næstformand &amp; Kasserer</span>
+          <a href="mailto:kasserer@molleskoven.dk" class="board-email">kasserer@molleskoven.dk</a>
+        </div>
+        <div class="board-card">
+          <div class="board-avatar small">SE</div>
+          <h3 class="board-name">Fornavn Efternavn</h3>
+          <span class="board-role">Sekretær</span>
+          <a href="mailto:kontakt@molleskoven.dk" class="board-email">kontakt@molleskoven.dk</a>
+        </div>
+        <div class="board-card">
+          <div class="board-avatar small">B1</div>
+          <h3 class="board-name">Fornavn Efternavn</h3>
+          <span class="board-role">Bestyrelsesmedlem</span>
+          <a href="mailto:kontakt@molleskoven.dk" class="board-email">kontakt@molleskoven.dk</a>
+        </div>
+        <div class="board-card">
+          <div class="board-avatar small">B2</div>
+          <h3 class="board-name">Fornavn Efternavn</h3>
+          <span class="board-role">Bestyrelsesmedlem</span>
+          <a href="mailto:kontakt@molleskoven.dk" class="board-email">kontakt@molleskoven.dk</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOKUMENTER -->
+  <section class="section section-alt" id="dokumenter">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Dokumenter</span>
+        <h2 class="section-title">Vigtige dokumenter</h2>
+        <p class="section-desc">Her finder du foreningens vedtægter, referater og andre relevante dokumenter.</p>
+      </div>
+      <div class="docs-grid">
+        <a href="#" class="doc-card">
+          <div class="doc-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" stroke="currentColor" stroke-width="2" fill="none"/><polyline points="14 2 14 8 20 8" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+          </div>
+          <div class="doc-info">
+            <span class="doc-title">Vedtægter 2024</span>
+            <span class="doc-meta">PDF · Opdateret januar 2024</span>
+          </div>
+          <svg class="doc-arrow" viewBox="0 0 24 24" width="20" height="20"><path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#" class="doc-card">
+          <div class="doc-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" stroke="currentColor" stroke-width="2" fill="none"/><polyline points="14 2 14 8 20 8" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+          </div>
+          <div class="doc-info">
+            <span class="doc-title">Referat — Generalforsamling 2025</span>
+            <span class="doc-meta">PDF · Maj 2025</span>
+          </div>
+          <svg class="doc-arrow" viewBox="0 0 24 24" width="20" height="20"><path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#" class="doc-card">
+          <div class="doc-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" stroke="currentColor" stroke-width="2" fill="none"/><polyline points="14 2 14 8 20 8" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+          </div>
+          <div class="doc-info">
+            <span class="doc-title">Årsregnskab 2025</span>
+            <span class="doc-meta">PDF · Godkendt februar 2026</span>
+          </div>
+          <svg class="doc-arrow" viewBox="0 0 24 24" width="20" height="20"><path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#" class="doc-card">
+          <div class="doc-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" stroke="currentColor" stroke-width="2" fill="none"/><polyline points="14 2 14 8 20 8" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+          </div>
+          <div class="doc-info">
+            <span class="doc-title">Husorden</span>
+            <span class="doc-meta">PDF · Opdateret marts 2023</span>
+          </div>
+          <svg class="doc-arrow" viewBox="0 0 24 24" width="20" height="20"><path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#" class="doc-card">
+          <div class="doc-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" stroke="currentColor" stroke-width="2" fill="none"/><polyline points="14 2 14 8 20 8" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+          </div>
+          <div class="doc-info">
+            <span class="doc-title">Budget 2026</span>
+            <span class="doc-meta">PDF · Godkendt januar 2026</span>
+          </div>
+          <svg class="doc-arrow" viewBox="0 0 24 24" width="20" height="20"><path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#" class="doc-card">
+          <div class="doc-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" stroke="currentColor" stroke-width="2" fill="none"/><polyline points="14 2 14 8 20 8" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+          </div>
+          <div class="doc-info">
+            <span class="doc-title">Deklaration</span>
+            <span class="doc-meta">PDF · Originaldokument</span>
+          </div>
+          <svg class="doc-arrow" viewBox="0 0 24 24" width="20" height="20"><path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section class="section" id="kontakt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Kontakt</span>
+        <h2 class="section-title">Skriv til os</h2>
+        <p class="section-desc">Har du spørgsmål, henvendelser eller ønsker du at komme i kontakt med bestyrelsen? Vi svarer hurtigst muligt.</p>
+      </div>
+      <div class="contact-layout">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row two-col">
+            <div class="form-group">
+              <label for="name">Navn</label>
+              <input type="text" id="name" name="name" placeholder="Dit fulde navn" required />
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="din@email.dk" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Emne</label>
+            <select id="subject" name="subject">
+              <option value="">Vælg emne...</option>
+              <option>Fællesarealer</option>
+              <option>Økonomi / kontingent</option>
+              <option>Generalforsamling</option>
+              <option>Naboklage</option>
+              <option>Andet</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Besked</label>
+            <textarea id="message" name="message" rows="5" placeholder="Skriv din besked her..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send besked</button>
+          <p class="form-note">Vi behandler dine oplysninger fortroligt og svarer inden for 3-5 hverdage.</p>
+        </form>
+        <div class="contact-info">
+          <div class="contact-info-card">
+            <h3>Kontaktoplysninger</h3>
+            <ul class="contact-list">
+              <li>
+                <span class="contact-icon">&#9993;</span>
+                <div>
+                  <strong>E-mail</strong>
+                  <a href="mailto:kontakt@molleskoven.dk">kontakt@molleskoven.dk</a>
+                </div>
+              </li>
+              <li>
+                <span class="contact-icon">&#128205;</span>
+                <div>
+                  <strong>Adresse</strong>
+                  <span>Mølleskoven, [Postnummer] [By]</span>
+                </div>
+              </li>
+              <li>
+                <span class="contact-icon">&#128337;</span>
+                <div>
+                  <strong>Svartid</strong>
+                  <span>3–5 hverdage</span>
+                </div>
+              </li>
+            </ul>
+            <div class="contact-divider"></div>
+            <h4>Nødstilfælde</h4>
+            <p>Ved akutte skader på fællesarealer, kontakt formanden direkte.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="#top" class="nav-logo">
+            <span class="nav-logo-icon">&#9698;</span>
+            <div>
+              <span class="nav-logo-title">Mølleskoven</span>
+              <span class="nav-logo-sub">Grundejerforening</span>
+            </div>
+          </a>
+          <p class="footer-tagline">Et trygt og velfungerende lokalsamfund for alle beboere i Mølleskoven.</p>
+        </div>
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="#om">Om foreningen</a></li>
+            <li><a href="#nyheder">Nyheder</a></li>
+            <li><a href="#bestyrelsen">Bestyrelsen</a></li>
+            <li><a href="#dokumenter">Dokumenter</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Grundejerforeningen Mølleskoven &nbsp;·&nbsp; CVR: XXXXXXXX</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
